@@ -1,18 +1,83 @@
----
-layout: default
----
-
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">    
-      
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.content | truncatewords:40}}
-      </div>
-      
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Team Progressive</title>
+	<!-- normalize -->
+	<link href="css/normalize.min.css" rel="stylesheet" type="text/css">
+	<!-- webfonts -->
+	<link href="css/fonts.css" rel="stylesheet" type="text/css">
+	<!-- website stylesheet -->
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="body-wrap">
+	<h1 class="logo"><a href="#">Team Progressive</a></h1>
+	<nav class="global-nav">
+		<ul>
+			<li><a href="#">Works</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Blog</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</nav>
+	<div class="wrap">
+		<div class="block">
+			<a href="#" class="thumbnail-wrap">
+				<div class="thumbnail">
+					<span class="overlay"><i>Detail View</i></span>
+					<img src="img/works/album/messgame3.jpg" alt="MESS-GAME Vol.3 Cover Art">
+				</div>
+				<h2>MESS-GAME Vol.3</h2>
+			</a>
+			<ul class="category">
+				<li><a href="#">Discography</a></li>
+				<li><a href="#">Original</a></li>
+			</ul>
+		</div>
+		<div class="block">
+			<a href="#" class="thumbnail-wrap">
+				<div class="thumbnail">
+					<span class="overlay"><i>Detail View</i></span>
+					<img src="img/works/album/sfcn5.jpg" alt="SFCN Vol.5 Cover Art">
+				</div>
+				<h2>SFCN Vol.5</h2>
+			</a>
+			<ul class="category">
+				<li><a href="#">Discography</a></li>
+				<li><a href="#">Original</a></li>
+			</ul>
+		</div>
+		<div class="block">
+			<a href="#" class="thumbnail-wrap">
+				<div class="thumbnail">
+					<span class="overlay"><i>Detail View</i></span>
+					<img src="img/works/album/mistyfield.jpg" alt="MISTYFIELD Cover Art">
+				</div>
+				<h2>MISTYFIELD</h2>
+			</a>
+			<ul class="category">
+				<li><a href="#">Discography</a></li>
+				<li><a href="#">Arranged</a></li>
+			</ul>
+		</div>
+		<div class="block">
+			<a href="#" class="thumbnail-wrap">
+				<div class="thumbnail">
+					<span class="overlay"><i>Detail View</i></span>
+					<img src="img/works/bms/plasticgirls.png" alt="PLASTIC GIRLS BMS Title Art">
+				</div>
+				<h2>PLASTIC GIRLS</h2>
+			</a>
+			<ul class="category">
+				<li><a href="#">Discography</a></li>
+				<li><a href="#">Original</a></li>
+			</ul>
+		</div>
+	</div>
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</body>
+</html>

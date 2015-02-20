@@ -1,0 +1,184 @@
+*, :after, :before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+html {
+	font-family: "Noto Sans Korean", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "Malgun Gothic", "맑은 고딕", "Apple SD Gothic Neo",sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: #666;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+strong, b {
+	font-weight: 700;
+}
+a {
+	color: #666;
+	text-decoration: none;
+}
+body:before, body:after {
+	content: "";
+	position: fixed;
+	background-color: #fff;
+	left: 0;
+	right: 0;
+	height: 30px;
+}
+body:before {
+	top: 0;
+}
+body:after {
+	bottom: 0;
+}
+body {
+	padding: 0px;
+	border-left: 30px solid #fff;
+	border-right: 30px solid #fff;
+}
+.body-wrap:before, .body-wrap:after {
+	content: "";
+	position: fixed;
+	background-color: #11acd1;
+	left: 30px;
+	right: 30px;
+	height: 30px;
+}
+.body-wrap:before {
+	top: 30px;
+}
+.body-wrap:after {
+	bottom: 30px;
+}
+.body-wrap {
+	padding: 60px;
+	border-left: 30px solid #11acd1;
+	border-right: 30px solid #11acd1;
+}
+.logo {
+	position: fixed;
+	top: 90px;
+	right: 120px;
+	margin: 0;
+	display: inline-block;
+	font-size: 0;
+	line-height: 0;
+}
+	.logo a {
+		background: url(../img/logo.svg) no-repeat 0 0;
+		background-size: contain;
+		display: inline-block;
+		padding: 100px;
+		text-indent: 100%;
+		white-space: nowrap;
+		overflow: hidden;
+	}
+.global-nav {
+	position: fixed;
+	top: 60px;
+	padding: 60px 60px 30px 0;
+	line-height: 1em;
+	transition: all 0.2s;
+}
+.global-nav:hover {
+	background-color: #fff;
+}
+.global-nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 24px;
+	font-weight: 900;
+	letter-spacing: 0.04em;
+	color: #11acd1;
+	text-transform: uppercase;
+}
+.global-nav li {
+	float: left;
+	color: #11acd1;
+}
+.global-nav li:before {
+	content: "/";
+	margin: 0 0.5em;
+}
+.global-nav li:first-child:before {
+	content: "";
+	margin: 0;
+}
+.global-nav li a {
+	color: #11acd1;
+}
+.global-nav li a:hover, .global-nav li a.active {
+	text-decoration: underline;
+}
+
+.wrap {
+	padding-top: 260px;
+}
+.block {
+	display: inline-block;
+	margin-right: 30px;
+	margin-bottom: 60px;
+}
+.block img {
+	max-height: 480px;
+}
+.block h2 {
+	margin: 30px 0;
+	line-height: 1em;
+	font-size: 24px;
+	font-weight: 700;
+}
+.block .thumbnail-wrap {
+	transition: color 0.2s;
+}
+.block .thumbnail-wrap:hover {
+	color: #11acd1;
+}
+.block .thumbnail-wrap:hover .overlay {
+	opacity: 1;
+}
+.block .thumbnail {
+	position: relative;
+	display: inline-block;
+	height: 480px;
+}
+.block .thumbnail .overlay {
+	position: absolute;
+	width: 100%;
+	height: 480px;
+	background-color: rgba(17,172,209,0.9);
+	text-align: center;
+	opacity: 0;
+	transition: opacity 0.2s;
+}
+.thumbnail .overlay i {
+	font-size: 21px;
+	line-height: 480px;
+	color: #fff;
+}
+.block .category {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.block .category li {
+	display: inline-block;
+	font-size: 0.8rem;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+}
+.block .category li a {
+	padding: 0.4em 1.5em;
+	color: #666;
+	border: 2px solid #666;
+	transition: all 0.2s;
+}
+.block .category li a:hover {
+	color: #11acd1;
+	border-color: #11acd1;
+}
