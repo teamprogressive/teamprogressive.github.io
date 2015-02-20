@@ -63,6 +63,7 @@ body {
 }
 .logo {
 	position: fixed;
+	z-index: 7777;
 	top: 90px;
 	right: 120px;
 	margin: 0;
@@ -81,6 +82,7 @@ body {
 	}
 .global-nav {
 	position: fixed;
+	z-index: 6666;
 	top: 60px;
 	padding: 60px 60px 30px 0;
 	line-height: 1em;
