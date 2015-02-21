@@ -1,0 +1,73 @@
+---
+layout: default
+title: works
+---
+		{% for post in site.posts %}
+		<div class="block">
+			<a href="#" class="thumbnail-wrap">
+				<div class="thumbnail">
+					<span class="overlay"><i>Detail View</i></span>
+					<img src="{{ post.image }}" alt="{{ post.caption }}">
+				</div>
+				<h2>{{ post.title }}</h2>
+			</a>
+			<ul class="category">
+				{% for tags in page.tags %}
+				<li><a href="#">{{ tags }}</a></li>
+				{% endfor %}
+			</ul>
+		</div>
+		{% endfor %}
+
+		<div class="block">
+			<a href="#" class="thumbnail-wrap">
+				<div class="thumbnail">
+					<span class="overlay"><i>Detail View</i></span>
+					<img src="img/works/album/messgame3.jpg" alt="MESS-GAME Vol.3 Cover Art">
+				</div>
+				<h2>MESS-GAME Vol.3</h2>
+			</a>
+			<ul class="category">
+				<li><a href="#">Discography</a></li>
+				<li><a href="#">Original</a></li>
+			</ul>
+		</div>
+		<div class="block">
+			<a href="#" class="thumbnail-wrap">
+				<div class="thumbnail">
+					<span class="overlay"><i>Detail View</i></span>
+					<img src="img/works/album/sfcn5.jpg" alt="SFCN Vol.5 Cover Art">
+				</div>
+				<h2>SFCN Vol.5</h2>
+			</a>
+			<ul class="category">
+				<li><a href="#">Discography</a></li>
+				<li><a href="#">Original</a></li>
+			</ul>
+		</div>
+		<div class="block">
+			<a href="#" class="thumbnail-wrap">
+				<div class="thumbnail">
+					<span class="overlay"><i>Detail View</i></span>
+					<img src="img/works/album/mistyfield.jpg" alt="MISTYFIELD Cover Art">
+				</div>
+				<h2>MISTYFIELD</h2>
+			</a>
+			<ul class="category">
+				<li><a href="#">Discography</a></li>
+				<li><a href="#">Arranged</a></li>
+			</ul>
+		</div>
+		<div class="block">
+			<a href="#" class="thumbnail-wrap">
+				<div class="thumbnail">
+					<span class="overlay"><i>Detail View</i></span>
+					<img src="img/works/bms/plasticgirls.png" alt="PLASTIC GIRLS BMS Title Art">
+				</div>
+				<h2>PLASTIC GIRLS</h2>
+			</a>
+			<ul class="category">
+				<li><a href="#">Discography</a></li>
+				<li><a href="#">Original</a></li>
+			</ul>
+		</div>
