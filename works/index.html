@@ -4,7 +4,7 @@ title: works
 ---
 		{% for post in site.posts %}
 		<div class="block">
-			<a href="#" class="thumbnail-wrap">
+			<a href="{{ post.url }}" class="thumbnail-wrap">
 				<div class="thumbnail">
 					<span class="overlay"><i>Detail View</i></span>
 					<img src="{{ post.image }}" alt="{{ post.caption }}">
