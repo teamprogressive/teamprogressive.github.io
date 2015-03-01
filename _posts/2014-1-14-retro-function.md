@@ -1,16 +1,16 @@
 ---
 layout: works
-title: MESS-GAME Vol.3
-description: first HARD DANCE / HARDCORE Compilation
-image: /img/works/album/messgame3.jpg
-caption: MESS-GAME Vol.3 Cover Art
+title: RETRO FUNCTION
+description: 국내에서 시도된 바가 드문 장르의 앨범. 전 곡 TPRO의 wigen이 프로듀스! 가수 서량, 보라 그리고 성우팀 무지개의 기령이 보컬로 참가!
+image: /img/works/album/retrofunction.jpg
+caption: RETRO FUNCTION Cover Art
 categories:
 - Works
 - Discography
 tags:
 - Discography
 - Original
-soundcloud:193183243
+soundcloud: 129303516
 ---
 
 		    <div class="col-half works-info-list">
@@ -21,18 +21,6 @@ soundcloud:193183243
 					4. Red Flamingo (feat.서량)
 					5. Romeo Drive FM.55 (feat.보라)
 					6. Sayonara, RETRO! Sayonara, TEATIME!
-					7. Retro Funtion (ft. 初音ミク)
-					8. PLASTIC GIRLS (feat. 서량)
-					9. MIX☆MIX love-juice (feat.기령)
-					10. Red Flamingo (feat.서량)
-					11. Romeo Drive FM.55 (feat.보라)
-					12. Sayonara, RETRO! Sayonara, TEATIME!
-					13. Retro Funtion (ft. 初音ミク)
-					14. PLASTIC GIRLS (feat. 서량)
-					15. MIX☆MIX love-juice (feat.기령)
-					16. Red Flamingo (feat.서량)
-					17. Romeo Drive FM.55 (feat.보라)
-					18. Sayonara, RETRO! Sayonara, TEATIME!
 		    </div>
 		    <div class="col-half works-info-body">
 		    	<div class="works-info-body-top clearfix">
@@ -69,7 +57,7 @@ soundcloud:193183243
 				    		<dt>Price</dt>
 				    		<dd>10,000won</dd>
 				    	</dl>
-						<a href="#" class="works-info-keylink"><span>Download</span></a>
+						<a href="#" class="works-info-keylink"><span>Buy</span></a>
 		    		</div>
 		    	</div>
 		    </div>
