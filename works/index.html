@@ -13,7 +13,7 @@ title: works
 			</a>
 			<ul class="category">
 				{% for tags in post.tags %}
-				<li><a href="{{ post.tags.{{ tags }} }}">{{ tags }}</a></li>
+				<li><a href="/tags/{{ tags }}">{{ tags }}</a></li>
 				{% endfor %}
 			</ul>
 		</div>
