@@ -2,11 +2,11 @@
 layout: default
 ---
 
-    <div class="col-3-1 works-art">![{{ post.caption }}]({{ post.image }})</div>
+    <div class="col-3-1 works-art"><img src="{{ post.image }}" alt="{{ post.caption }}"></div>
     <div class="col-3-2 works-info">
 	    <div class="works-info-title">
-	    	#{{ page.title }}
-	    	{{ page.description }}
+	    	<h1>{{ page.title }}</h1>
+	    	<p>{{ page.description }}</p>
 	    	<iframe height="20" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{ post.soundcloud }}&amp;color=11acd1&amp;inverse=false&amp;auto_play=false&amp;show_user=false"></iframe>
 	    </div>
 	    <div class="row">
