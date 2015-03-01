@@ -265,6 +265,7 @@ body {
 	margin-top: -90px;
 }
 .works-info-title {
+	width: 100%;
 	float: left;
 }
 .works-info-title h1 {
