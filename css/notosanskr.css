@@ -1,0 +1,17 @@
+@font-face {
+ font-family: 'NotoSansKR';
+ font-style: normal;
+ font-weight: 300;
+ src: url('../fonts/NotoSansKR-DemiLight.eot');
+ src: local('NotoSansKoreanDemiLight'), local('Noto Sans Korean DemiLight'), url('../fonts/NotoSansKR-DemiLight.eot?#iefix') format('embedded-opentype'),
+ url('../fonts/NSKR300.woff') format('woff'),
+}
+
+@font-face {
+ font-family: 'NotoSansKR';
+ font-style: normal;
+ font-weight: 500;
+ src: url('../fonts/NotoSansKR-Medium.eot');
+ src: local('NotoSansKoreanMedium'), local('Noto Sans Korean Medium'), url('../fonts/NotoSansKR-Medium.eot?#iefix') format('embedded-opentype'),
+ url('../fonts/NSKR500.woff') format('woff'),
+}
