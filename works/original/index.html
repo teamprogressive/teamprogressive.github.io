@@ -2,7 +2,7 @@
 layout: default
 title: Original
 ---
-		{% for post in site.categories.Original reversed %}
+		{% for post in site.tags.Original reversed %}
 		<div class="block">
 			<a href="{{ post.url }}" class="thumbnail-wrap">
 				<div class="thumbnail">
@@ -13,7 +13,7 @@ title: Original
 			</a>
 			<ul class="category">
 				{% for tags in post.tags %}
-				<li><a href="/tags/{{ tags }}.html">{{ tags }}</a></li>
+				<li><a href="/works/{{ tags }}">{{ tags }}</a></li>
 				{% endfor %}
 			</ul>
 		</div>
