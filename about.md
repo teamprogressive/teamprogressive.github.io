@@ -4,12 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Team Progressive(약칭 TPRO)는 2003년에 결성 된 여러 분야의 아마추어 제작자들의 인터넷 길드입니다.
 
-### More Information
+### Contact US
 
-A place to include any other types of information that you'd like to include about yourself. 
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+- [twitter](http://twitter.com/tpro_)
+- [Facebook](http://facebook.com/createTPRO)
