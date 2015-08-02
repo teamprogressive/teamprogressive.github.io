@@ -2,19 +2,21 @@
 layout: default
 title: works
 ---
-		{% for post in site.works reversed %}
-		<div class="block">
-			<a href="{{ post.url }}" class="thumbnail-wrap">
-				<div class="thumbnail">
-					<span class="overlay"><i>Detail View</i></span>
-					<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ post.image }}" alt="{{ post.caption }}" class="img-unveil">
-				</div>
-				<h2>{{ post.title }}</h2>
-			</a>
-			<ul class="category">
-				{% for tags in post.tags %}
-				<li><a href="/works/{{ tags }}">{{ tags }}</a></li>
-				{% endfor %}
-			</ul>
+		<div id="mixitup-container">
+			{% for post in site.works reversed %}
+			<div class="mix block {% for tags in post.tags %}{{ tags }} {% endfor %}">
+				<a href="{{ post.url }}" class="thumbnail-wrap">
+					<div class="thumbnail">
+						<span class="overlay"><i>Detail View</i></span>
+						<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ post.image }}" alt="{{ post.caption }}" class="img-unveil">
+					</div>
+					<h2>{{ post.title }}</h2>
+				</a>
+				<ul class="category">
+					{% for tags in post.tags %}
+					<li><a href="#" data-filter=".{{ tags }}">{{ tags }}</a></li>
+					{% endfor %}
+				</ul>
+			</div>
+			{% endfor %}
 		</div>
-		{% endfor %}
