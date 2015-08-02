@@ -192,9 +192,23 @@ body {
 	color: #11acd1;
 }
 .global-nav li a:hover, .global-nav li a.active {
-	text-decoration: underline;
+	
 }
-
+.global-nav-ind {
+	position: relative;
+}
+.nav-line {
+	display:inline-block;
+	position:absolute;
+	left:0;
+	top:50%;
+	width:0;
+	border-top: 3px solid #11acd1;
+	-webkit-transition: width 0.5s ease-in;
+}
+.global-nav-ind:hover .line-line {
+    width:100%;    
+}
 .wrap {
 	padding-top: 240px;
 	padding-bottom: 120px;
