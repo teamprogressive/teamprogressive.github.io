@@ -200,7 +200,7 @@ body {
 	padding-bottom: 120px;
 }
 .block {
-	display: inline-block;
+	display: none;
 	margin-right: 30px;
 	margin-bottom: 60px;
 	min-width: 480px;
