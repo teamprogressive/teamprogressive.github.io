@@ -1,4 +1,4 @@
-/**!
+/**! 
  * MixItUp v2.1.9
  *
  * @copyright Copyright 2015 KunkaLabs Limited.
