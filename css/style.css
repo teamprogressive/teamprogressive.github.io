@@ -213,9 +213,9 @@ body {
 	border-top: 2px solid #666;
 }
 .global-nav-ind:hover .nav-line {
-    width:100%;    
+    width:100%;
 }
-.nav-2depth li:hover .nav-line {
+.nav-2depth-ind:hover .nav-line, .nav-2depth-ind.active {
 	width: 100%;
 }
 .wrap {
