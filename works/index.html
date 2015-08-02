@@ -2,6 +2,16 @@
 layout: default
 title: works
 ---
+		<ul class="category-list">
+			<li>Discography
+				<ul class="category-list">
+					<li>Original</li>
+					<li>Arrange</li>
+				</ul>
+			</li>
+			<li>Event/Party</li>
+			<li>Legacy</li>
+		</ul>
 		<div id="mixitup-container">
 			{% for post in site.works reversed %}
 			<div class="mix block {% for tags in post.tags %}{{ tags }} {% endfor %}">
