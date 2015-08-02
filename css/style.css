@@ -204,7 +204,7 @@ body {
 	top:50%;
 	width:0;
 	border-top: 3px solid #11acd1;
-	-webkit-transition: width 0.5s ease-in;
+	-webkit-transition: width 0.3s cubic-bezier(.8,0,.22,1);
 }
 .global-nav-ind:hover .nav-line {
     width:100%;    
@@ -212,6 +212,13 @@ body {
 .wrap {
 	padding-top: 240px;
 	padding-bottom: 120px;
+}
+.category-list {
+	position: absolute;
+	top: 160px;
+}
+.category-list-2dep {
+	float: left;
 }
 .block {
 	display: none;
