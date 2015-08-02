@@ -215,10 +215,10 @@ body {
 .global-nav-ind:hover .nav-line {
     width:100%;
 }
-.nav-1depth-ind:hover .nav-line, .nav-1depth-ind.active {
+.nav-1depth-ind:hover > .nav-line, .nav-1depth-ind.active {
 	width: 100%;
 }
-.nav-2depth-ind:hover .nav-line, .nav-2depth-ind.active {
+.nav-2depth-ind:hover > .nav-line, .nav-2depth-ind.active {
 	width: 100%;
 }
 .wrap {
