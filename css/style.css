@@ -206,7 +206,7 @@ body {
 	border-top: 3px solid #11acd1;
 	-webkit-transition: width 0.5s ease-in;
 }
-.global-nav-ind:hover .line-line {
+.global-nav-ind:hover .nav-line {
     width:100%;    
 }
 .wrap {
