@@ -14,7 +14,7 @@ title: works
 				</a>
 				<ul class="category">
 					{% for tags in post.tags %}
-					<li><a class="filter" data-filter=".{{ tags }}">{{ tags }}</a></li>
+					<li><button class="filter" data-filter=".{{ tags }}">{{ tags }}</button></li>
 					{% endfor %}
 				</ul>
 			</div>
