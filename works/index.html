@@ -2,18 +2,20 @@
 layout: default
 title: works
 ---
-		<ul class="category-list">
-			<li>Discography
-				<ul class="category-list-2dep">
-					<li>Original</li>
-					<li>Arrange</li>
-					<li>Regular</li>
-					<li>EP</li>
-				</ul>
-			</li>
-			<li>Event</li>
-			<li>Legacy</li>
-		</ul>
+		<div class="nav-2depth">
+			<ul class="category-list">
+				<li><span class="filter" data-filter=".Discography">Discography</span>
+					<ul class="category-list-2dep">
+						<li><span class="filter" data-filter=".Original">Original</span></li>
+						<li><span class="filter" data-filter=".Arrange">Arrange</span></li>
+						<li><span class="filter" data-filter=".Regular">Regular</span></li>
+						<li><span class="filter" data-filter=".EP">EP</span></li>
+					</ul>
+				</li>
+				<li>Event</li>
+				<li>Legacy</li>
+			</ul>
+		</div>
 		<div id="mixitup-container">
 			{% for post in site.works reversed %}
 			<div class="mix block {% for tags in post.tags %}{{ tags }} {% endfor %}">

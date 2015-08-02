@@ -204,21 +204,40 @@ body {
 	top:50%;
 	width:0;
 	border-top: 3px solid #11acd1;
+	transition: width 0.3s cubic-bezier(.8,0,.22,1);
 	-webkit-transition: width 0.3s cubic-bezier(.8,0,.22,1);
 }
 .global-nav-ind:hover .nav-line {
     width:100%;    
 }
 .wrap {
-	padding-top: 240px;
+	padding-top: 280px;
 	padding-bottom: 120px;
 }
-.category-list {
+.nav-2depth ul {
 	position: absolute;
-	top: 160px;
+	list-style-type: none;
+	width: 140px;
+}
+.nav-2depth span {
+	cursor: pointer;
+}
+.nav-2depth li {
+	transition: width 0.3s cubic-bezier(.8,0,.22,1);
+}
+.nav-2depth li.hover {
+	border-bottom: 2px solid #666;
+}
+.nav-2depth span.active {
+
+}
+.category-list {
+	top: 170px;
+	padding-left: 0;
 }
 .category-list-2dep {
-	float: left;
+	left: 140px;
+	padding-left: 0;
 }
 .block {
 	display: none;
