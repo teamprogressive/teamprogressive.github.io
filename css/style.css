@@ -261,15 +261,16 @@ body {
 }
 .block .category li {
 	display: inline-block;
-	font-size: 0.8rem;
-	letter-spacing: 0.1em;
-	text-transform: uppercase;
 }
 .block .category li button {
 	padding: 0.4em 1.5em;
 	color: #666;
+	background-color: transparent;
 	border: 1px solid #666;
 	transition: all 0.2s;
+	font-size: 0.8rem;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
 }
 .block .category li button:hover, .block .category li button.active {
 	color: #11acd1;
