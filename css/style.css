@@ -215,6 +215,10 @@ body {
 .global-nav-ind:hover .nav-line {
     width:100%;
 }
+.nav-1depth-ind, .nav-2depth-ind {
+	position: relative;
+	cursor: pointer;
+}
 .nav-1depth-ind:hover > .nav-line, .nav-1depth-ind.active {
 	width: 100%;
 }
