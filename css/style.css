@@ -219,10 +219,10 @@ body {
 	position: relative;
 	cursor: pointer;
 }
-.nav-1depth-ind:hover > .nav-line, .nav-1depth-ind.active {
+.nav-1depth-ind:hover > .nav-line, .nav-1depth-ind.active > .nav-line {
 	width: 100%;
 }
-.nav-2depth-ind:hover > .nav-line, .nav-2depth-ind.active {
+.nav-2depth-ind:hover > .nav-line, .nav-2depth-ind.active .nav-line {
 	width: 100%;
 }
 .wrap {
