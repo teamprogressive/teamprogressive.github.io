@@ -23,19 +23,14 @@
 <body>
 <div class="body-wrap">
   <h1 class="logo"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-  {% unless page.layout == 'front' %}
   <nav class="global-nav">
     <ul>
+      {% assign url = page.url|remove:'index.html' %}
       {% for link in site.navigation %}
-        {% assign current = nil %}
-        {% if page.url == link.url or page.layout == link.layout %}
-         {% assign current = 'current' %}
-        {% endif %}
-      <li><a href="{{ link.url }}" class="global-nav-ind {{ current }}"><span class="nav-line"></span>{{ link.text }}</a></li>
+      <li><a href="{{ link.url }}" class="global-nav-ind{% if url == link.url %} active{% endif %}"><span class="nav-line"></span>{{ link.text }}</a></li>
       {% endfor %}
     </ul>
   </nav>
-  {% endunless %}
   <div class="wrap">
     {{ content }}
   </div>

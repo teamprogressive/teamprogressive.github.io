@@ -212,7 +212,7 @@ body {
 .nav-2depth .nav-line {
 	border-top: 2px solid #666;
 }
-.global-nav-ind:hover .nav-line {
+.global-nav-ind:hover .nav-line, .global-nav-ind.active > .nav-line {
     width:100%;
 }
 .nav-1depth-ind, .nav-2depth-ind {
