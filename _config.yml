@@ -78,6 +78,10 @@ exclude:
     - LICENSE
     - README.md
 
+# Pagination
+pagenate: 10
+pagenate_path: "blog/page:num/"
+
 # Navigation
 navigation:
 - text: Works
