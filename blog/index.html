@@ -1,0 +1,13 @@
+---
+layout: default
+---
+	<div class="blog-list">
+	{% for post in paginator.posts %}
+		<section>
+			<span class="blog-author">{{ post.author }}</span>
+			<h2>{{ post.title }}</h2>
+			<span class="date">{{ post.date }}</span>
+			<summary>{{ post.content | truncatewords: 72 }}</summary>
+		</section>
+	{% endfor %}
+	</div>
