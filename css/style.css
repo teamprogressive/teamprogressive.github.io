@@ -380,3 +380,21 @@ body {
 .works-info-keylink:hover {
 
 }
+
+/* blog list */
+.blog-list {
+
+}
+.blog-list section {
+	padding: 45px 0;
+	border-bottom: 1px solid #c9c9c9;
+}
+.blog-list h2 {
+
+}
+.blog-list .date {
+
+}
+.blog-list summary {
+	
+}
