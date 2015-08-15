@@ -387,6 +387,7 @@ body {
 }
 .blog-list > a {
 	display: block;
+	transition: all .1s ease-in;
 }
 .blog-list > a:hover {
 	background-color: #eaeaea;
@@ -415,4 +416,5 @@ body {
 }
 .blog-list-info summary{
 	margin: 0;
+	width: 600px;
 }
