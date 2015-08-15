@@ -385,6 +385,8 @@ body {
 /* about */
 .about-heading h1 {
 	font-size: 60px;
+	margin: 0;
+	line-height: 1.2em;
 }
 .about-link {
 	list-style: none;
