@@ -405,7 +405,7 @@ body {
 	margin-right: 40px;
 }
 .blog-list h2 {
-	margin: 0 0 14px 0;
+	margin: 0;
 	color: #11acd1;
 }
 .blog-list .date {
@@ -413,6 +413,6 @@ body {
 	margin-bottom: 13px;
 	font-size: 14px;
 }
-.blog-list-info p{
+.blog-list-info summary{
 	margin: 0;
 }
