@@ -8,9 +8,11 @@ title: blog
 		<a href="{{ post.url }}">
 			<section>
 				<img src="{{ site.baseurl }}/img/author/{{ post.author }}.png" class="blog-author" alt="작성자 : {{ post.author }}" />
-				<h2>{{ post.title }}</h2>
-			<span class="date">{{ site.time | date_to_string }}</span>
-				<summary>{{ post.content | split:'<!--break-->' | first }}</summary>
+				<div class="blog-list-info clearfix">
+					<h2>{{ post.title }}</h2>
+					<span class="date">{{ site.time | date_to_string }}</span
+					><summary>{{ post.content | split:'<!--break-->' | first }}</summary>
+				</div>
 			</section>
 		</a>
 	{% endfor %}
