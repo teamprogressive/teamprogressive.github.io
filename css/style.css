@@ -135,7 +135,9 @@ body {
 	display: block;
 	clear: both;
 }
-
+.pri-color {
+	color: #11acd1;
+}
 .logo {
 	position: fixed;
 	z-index: 7777;
@@ -379,6 +381,17 @@ body {
 }
 .works-info-keylink:hover {
 
+}
+/* about */
+.about-heading h1 {
+	font-size: 60px;
+}
+.about-link {
+	list-style: none;
+	line-height: 2em;
+}
+.about-link i {
+	width: 24px;
 }
 
 /* blog list */
