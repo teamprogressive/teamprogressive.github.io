@@ -389,6 +389,10 @@ body {
 	padding: 45px 60px;
 	border-bottom: 1px solid #c9c9c9;
 }
+.blog-list .author {
+	border-radius: 50%;
+	width: 130px;
+}
 .blog-list h2 {
 
 }
