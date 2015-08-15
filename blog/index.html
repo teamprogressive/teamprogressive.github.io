@@ -5,11 +5,13 @@ title: blog
 
 	<div class="blog-list">
 	{% for post in site.posts %}
-		<section>
-			<span class="blog-author">{{ post.author }}</span>
-			<h2>{{ post.title }}</h2>
-			<span class="date">{{ post.date }}</span>
-			<summary>{{ post.content | truncatewords: 72 }}</summary>
-		</section>
+		<a href="{{ post.url }}">
+			<section>
+				<span class="blog-author">{{ post.author }}</span>
+				<h2>{{ post.title }}</h2>
+				<span class="date">{{ post.date }}</span>
+				<summary>{{ post.content | truncatewords: 72 }}</summary>
+			</section>
+		</a>
 	{% endfor %}
 	</div>

@@ -383,10 +383,10 @@ body {
 
 /* blog list */
 .blog-list {
-
+	margin: 0 -60px;
 }
 .blog-list section {
-	padding: 45px 0;
+	padding: 45px 60px;
 	border-bottom: 1px solid #c9c9c9;
 }
 .blog-list h2 {
@@ -396,5 +396,5 @@ body {
 
 }
 .blog-list summary {
-	
+
 }
