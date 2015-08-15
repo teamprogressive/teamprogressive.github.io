@@ -385,6 +385,12 @@ body {
 .blog-list {
 	margin: 0 -60px;
 }
+.blog-list > a {
+	display: block;
+}
+.blog-list > a:hover {
+	background-color: #eaeaea;
+}
 .blog-list section {
 	padding: 45px 60px;
 	border-bottom: 1px solid #c9c9c9;
@@ -404,7 +410,7 @@ body {
 }
 .blog-list .date {
 	display: block;
-	
+	margin-bottom: 13px;
 	font-size: 14px;
 }
 .blog-list-info p{

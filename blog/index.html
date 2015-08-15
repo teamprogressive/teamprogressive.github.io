@@ -11,7 +11,7 @@ title: blog
 				<div class="blog-list-info">
 					<h2>{{ post.title }}</h2>
 					<span class="date">{{ site.time | date_to_string }}</span>
-					{{ post.content | split:'<!--break-->' | first }}
+					{{ post.summary }}
 				</div>
 			</section>
 		</a>
