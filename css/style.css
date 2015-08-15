@@ -390,14 +390,15 @@ body {
 	border-bottom: 1px solid #c9c9c9;
 }
 .blog-list .author {
+	float: left;
 	border-radius: 50%;
 	width: 130px;
 }
 .blog-list h2 {
-
+	color: #11acd1;
 }
 .blog-list .date {
-
+	font-size: 14px;
 }
 .blog-list summary {
 
