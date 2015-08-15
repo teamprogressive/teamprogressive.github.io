@@ -403,9 +403,10 @@ body {
 	color: #11acd1;
 }
 .blog-list .date {
-	margin: 14px 0;
+	display: block;
+	
 	font-size: 14px;
 }
-.blog-list summary {
-
+.blog-list-info p{
+	margin: 0;
 }

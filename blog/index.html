@@ -6,12 +6,12 @@ title: blog
 	<div class="blog-list">
 	{% for post in site.posts %}
 		<a href="{{ post.url }}">
-			<section>
+			<section class="clearfix">
 				<img src="{{ site.baseurl }}/img/author/{{ post.author }}.png" class="blog-author" alt="작성자 : {{ post.author }}" />
-				<div class="blog-list-info clearfix">
+				<div class="blog-list-info">
 					<h2>{{ post.title }}</h2>
-					<span class="date">{{ site.time | date_to_string }}</span
-					><summary>{{ post.content | split:'<!--break-->' | first }}</summary>
+					<span class="date">{{ site.time | date_to_string }}</span>
+					{{ post.content | split:'<!--break-->' | first }}
 				</div>
 			</section>
 		</a>
