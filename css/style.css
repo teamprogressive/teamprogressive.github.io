@@ -459,7 +459,8 @@ body {
 	margin: 24px 0;
 }
 .post blockquote {
-	margin: 1em;
+	padding: 1em;
+	margin: 0;
 	background-color: #E8E8E8;
 }
 .post .entry {
@@ -477,7 +478,7 @@ body {
 }
 .post figcaption {
 	position: absolute;
-	right: -260px;
+	right: -256px;
 	top: 0;
 	padding-top: 1em;
 	font-size: 0.9em;
@@ -486,6 +487,45 @@ body {
 	border-top: 2px solid #c9c9c9;
 }
 
+.embed-responsive {
+	position: relative;
+	display: block;
+	height: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.embed-responsive .embed-responsive-item,
+.embed-responsive iframe,
+.embed-responsive embed,
+.embed-responsive object,
+.embed-responsive video {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
+.embed-responsive.embed-responsive-16by9 {
+	padding-bottom: 56.25%;
+}
+.embed-responsive.embed-responsive-4by3 {
+	padding-bottom: 75%;
+}
+
 .copyright {
 	padding-top: 240px;
+}
+@media (max-width: 1279px) {
+	.post figcaption {
+		position: relative;
+		width: 100%;
+	}
+}
+@media (max-width: 1023px) {
+	.blog-list .author-img {
+		width: 70px;
+		margin-bottom: 0.5em;
+	}
 }

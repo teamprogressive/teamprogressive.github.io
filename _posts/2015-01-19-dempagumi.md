@@ -4,7 +4,7 @@ title: 아키하바라상의 어떤 노심융해 - 덴파구미.inc
 category: RMHN
 author: RMHN
 date: 2015.01.19
-summary: 덴파구미.inc와 아이돌 카페 디어스테이지
+summary: 덴파구미.inc와 아이돌 카페 디어스테이지. 나의 뜨거운 아이돌 이야기, 시작합니다!
 ---
 
 >본 글은 idology에 기고한 글과 자료를 올린 것입니다.
@@ -16,7 +16,7 @@ summary: 덴파구미.inc와 아이돌 카페 디어스테이지
 [^1] 모모이로 클로버는 2011년부로 이름을 ‘모모이로 클로버 Z’로 변경하였다. 많은 이들이 〈기동전사 Z 건담〉 (1985)을 연상했다.
 
 <figure>
-<iframe width="769" height="433" src="https://www.youtube.com/embed/u7z9M0vFPbI?rel=0" frameborder="0" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9"><iframe width="769" height="433" src="https://www.youtube.com/embed/u7z9M0vFPbI?rel=0" frameborder="0" allowfullscreen></iframe></div>
 <figcaption>모모이로 클로버 – 行くぜっ！怪盗少女 (가잣! 괴도소녀)<br/>그래도 아직은 그렇게까지 험한 꼴을 당하진 않던(?) 시절의 그녀들.</figcaption>
 </figure>
 
@@ -27,7 +27,7 @@ summary: 덴파구미.inc와 아이돌 카페 디어스테이지
 시간이 지나, 2012~2013년 언저리. 제타의 혼을 이어받은 모모크로가 메이저에 진출해 급작스럽게 인기를 얻어 한참 맹위를 떨친 뒤 그 열기가 조금 뜸해졌을 무렵. 이제는 무려 6명이 된 덴파구미는 오타쿠들의 본진 아키하바라로부터 조용한 폭발을 일으키며 그 모습을 본격적으로 드러내기 시작했다. 이름에 충실하게 전파계 음악(전파송)을 주력으로 내세워, “W.W.D(World Wide Dempa)“ 앨범을 기획해 두 번에 걸쳐 발매. 타이틀곡엔 이 분야의 스타, 통칭 ‘햐다인(ヒャダイン)’으로 익히 알려진 작곡가 마에야마다 켄이치(前山田健一)의 이름을 걸어두고, 그 리믹스 라인업엔 PandaBY나 fu_mou 등, 애니메이션 클럽 이벤트에서 주력으로 활동하는 동인 음악가들을 적극적으로 기용했다. 그 가사는 멤버들의 소외나 좌절 같은 제법 묵직하고 어두운 경험을 이야기하고 있는 한편, 한 그룹의 일원으로서의 느낌 등 ‘우리’의 이야기를 읊조리며 신세대 오타쿠들의 공감대를 직접 자극했다.
 
 <figure>
-<iframe width="769" height="433" src="https://www.youtube.com/embed/wyZOePtID6s?rel=0" frameborder="0" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9"><iframe width="769" height="433" src="https://www.youtube.com/embed/wyZOePtID6s?rel=0" frameborder="0" allowfullscreen></iframe></div>
 <figcaption>덴파구미.inc – マイナスからのスタート、やっぱキツい!? (마이너스에서 스타트, 역시 힘들까!?)<br/>‘친구’, ‘외톨이’, ‘탈덕’. 그리고 극복. 21세기의 오타쿠들에겐 익숙한 단어일 것이다.</figcaption>
 </figure>
 
@@ -36,7 +36,7 @@ summary: 덴파구미.inc와 아이돌 카페 디어스테이지
 여기까지 오고 나니, 이들이 풍기던 이상함과 위화감은 어느새 쾌감이 되어 있었다. ‘아이돌이 되고 싶어!’라는 한 마디로 그 길에 들어서는 사람들은 얼마나 많을까. 하지만 이들은 그 말에 화답해 아이돌이 되었다기보다는, 아이돌의 모습과 입을 빌려 오타쿠 센스를 마구 어필하고 있는 고퀄리티 아이돌 코스튬 플레이어에 가까운 느낌이었다. 가짜가 최선을 다해 진짜를 모방하고, 이윽고 진짜의 위치를 뛰어넘기 시작하는, 이상하고 익숙한 광경.
 
 <figure>
-<iframe width="769" height="433" src="https://www.youtube.com/embed/t9nFrJuGLJM?rel=0" frameborder="0" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9"><iframe width="769" height="433" src="https://www.youtube.com/embed/t9nFrJuGLJM?rel=0" frameborder="0" allowfullscreen></iframe></div>
 <figcaption>kors k feat. 古川未鈴 – Drive Me Crazy<br/>게임 오타쿠로서 자신이 좋아하던 게임에 직접 참여한다는 감각은 어떤 느낌일까.</figcaption>
 </figure>
 
@@ -49,7 +49,7 @@ summary: 덴파구미.inc와 아이돌 카페 디어스테이지
 하지만, 예정된 라이브 시각이 다가오면 모든 것이 변한다. 이날은 디어스테이지 소속 아이돌, 망상 캘리브레이션(妄想キャリブレーション)의 싱글 발매일. 매니저가 라이브를 고지하자 손님들이 우루루 이동하기 시작한다. 그곳을 따라가면 분명히 조금 전까지 신작 게임 이야길 나누던 그 여자아이는 어느새 단장을 마치고 무대에서 리허설을 하고 있다. 리허설이 끝난 뒤 능숙한 멘트로 인사를 마치고, 나름 혼을 담은 콩트를 선보인다. 그리고 이어지는 두 곡의 공연. 환호. 서포터들은 공연이 끝나면 격려의 인사를 보내고, 담배를 태우며 공연의 내용과 이런저런 서포트의 방향에 관한 이야길 나눈다. 그러는 사이, 약 200장 남짓 쌓아둔 앨범은 단 30분 만에 흔적도 없이 사라지고 말았다. 그런 잠깐의 폭풍 같은 시간을 보내고 나서, 고개를 돌려보면 저 너머에서 넥타이 부대가 양손에 CD를 석 장이고 넉 장씩 끼고 승리의 미소를 지으며 떠나가고 있었다.
 
 <figure>
-<iframe width="769" height="433" src="https://www.youtube.com/embed/MZNmCGegzj0?rel=0" frameborder="0" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9"><iframe width="769" height="433" src="https://www.youtube.com/embed/MZNmCGegzj0?rel=0" frameborder="0" allowfullscreen></iframe></div>
 <figcaption>망상 캘리브레이션 – 何故なら私、妄想少女ですの (왜냐하면 나, 망상소녀인 걸요)<br/>디어스테이지의 후속 타자 ‘망상 캘리브레이션’. 덴파구미보다 좀 더 미쳐있는 캐릭터 컨셉이 매력적.</figcaption>
 </figure>
 
@@ -59,13 +59,13 @@ summary: 덴파구미.inc와 아이돌 카페 디어스테이지
 
 이렇게 디어스테이지와 덴파구미가 가장 강력한 무기로 내세우고 있는 일본 문화에 대한 시각-오타쿠로서의 경험과 이야기들은 어쩌면 어떤 일본인에겐 가장 부끄러운 영역일지도 모른다. 하지만 그들은, ‘어차피 일본은 그래 왔지 않냐’며 천연덕스럽게 이야기한다. 그런 골칫덩어리 핵융합로와도 같은 아키하바라에서, 그 안에 뛰어들어가 보고 싶은 오타쿠들의 아이돌에 대한 동경과 관심을 한데 모아 만든 돌연변이 ‘가짜 아이돌’. 그런 그들이 지금은 요코하마 친선 대표로, 다른 나라에서 일본을 말하겠다며 최전선에 깃발을 펼쳐 들고 있다. ‘성공한 덕질’이란, 아마 이런 모습이 아닐까. 변방의 오타쿠는 조용히 그 모습을 기록하며 응원하기로 했다.
 <figure>
-<iframe width="769" height="433" src="https://www.youtube.com/embed/sOin4bwUQ5c?rel=0" frameborder="0" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9"><iframe width="769" height="433" src="https://www.youtube.com/embed/sOin4bwUQ5c?rel=0" frameborder="0" allowfullscreen></iframe></div>
 <figcaption>덴파구미.inc – ちゅるりちゅるりら (츄루리츄루리라)<br/>전국 난세는 꿈과 환상처럼! 핵융합로에서 멜트다운이 일어나지 않는다는 것은 이미 알고 있다.</figcaption>
 </figure>
 
 ### 참조
 
 * [秋葉原ディアステージ](http://dearstage.com/)
-* [Timeout インタビュー：福嶋麻衣子（もふくちゃん](http://www.timeout.jp/ja/tokyo/feature/7313)
+* [Timeout インタビュー：福嶋麻衣子(もふくちゃん)](http://www.timeout.jp/ja/tokyo/feature/7313)
 * [福嶋麻衣子 ～アイドルの常識を変えた 秋葉原の若きプロデューサー～](http://asianbeat.com/ja/icon/mofuku.html)
 
