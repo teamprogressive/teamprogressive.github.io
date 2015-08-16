@@ -459,14 +459,31 @@ body {
 	margin: 24px 0;
 }
 .post blockquote {
-	margin: 0;
+	margin: 1em;
+	background-color: #E8E8E8;
 }
 .post .entry {
 	margin: 72px 0;
 }
+.post a {
+	color: #11acd1;
+}
+.post a:hover {
+	text-decoration: underline;
+}
+.post figure {
+	position: relative;
+	margin: 0;
+}
 .post figcaption {
-	color: #969696;
+	position: absolute;
+	right: -260px;
+	top: 0;
+	padding-top: 1em;
 	font-size: 0.9em;
+	width: 240px;
+	color: #969696;
+	border-top: 2px solid #c9c9c9;
 }
 
 .copyright {
