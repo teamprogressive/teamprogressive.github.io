@@ -397,7 +397,7 @@ body {
 	width: 30px;
 }
 
-/* blog list */
+/* blog */
 .blog-list {
 	margin: 0 -60px;
 }
@@ -415,9 +415,11 @@ body {
 .blog-list-info {
 	float: left;
 }
-.blog-author {
-	float: left;
+.author-img {
 	border-radius: 50%;
+}
+.blog-list .author-img {
+	float: left;
 	width: 130px;
 	margin-right: 40px;
 }
@@ -433,6 +435,18 @@ body {
 .blog-list-info summary{
 	margin: 0;
 	width: 600px;
+}
+.post .author-img {
+	width: 40px;
+	margin-right: 10px;
+}
+.post .author {
+	line-height: 40px;
+}
+.post h1 {
+	font-size: 60px;
+	margin: 0;
+	line-height: 1.2em;
 }
 
 .copyright {
