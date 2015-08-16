@@ -434,7 +434,7 @@ body {
 }
 .blog-list-info summary{
 	margin: 0;
-	width: 600px;
+	max-width: 590px;
 }
 .post {
 	max-width: 769px;
@@ -458,9 +458,17 @@ body {
 	font-size: 1.2em;
 	margin: 24px 0;
 }
+.post blockquote {
+	margin: 0;
+}
 .post .entry {
 	margin: 72px 0;
 }
+.post figcaption {
+	color: #969696;
+	font-size: 0.9em;
+}
+
 .copyright {
 	padding-top: 240px;
 }
