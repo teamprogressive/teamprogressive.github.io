@@ -231,12 +231,6 @@ body {
 	padding-top: 280px;
 	padding-bottom: 120px;
 }
-.wrap a {
-	transition: all .1s ease-in;
-}
-.wrap a:hover {
-	text-decoration: underline;
-}
 .nav-2depth ul {
 	position: absolute;
 	list-style-type: none;
