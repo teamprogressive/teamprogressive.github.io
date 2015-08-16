@@ -521,6 +521,10 @@ body {
 	.post figcaption {
 		position: relative;
 		width: 100%;
+		right: initial;
+		border-top: none;
+		border-bottom: 2px solid #c9c9c9;
+		padding-bottom: 1em;
 	}
 }
 @media (max-width: 1023px) {
