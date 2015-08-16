@@ -10,7 +10,7 @@ title: blog
 				<img src="{{ site.baseurl }}/img/author/{{ post.author }}.png" class="blog-author" alt="작성자 : {{ post.author }}" />
 				<div class="blog-list-info">
 					<h2>{{ post.title }}</h2>
-					<span class="date">{{ site.time | date_to_string }}</span>
+					<span class="date">{{ post.time | date: "%B %e, %Y" }}</span>
 					<summary>{{ post.summary }}</summary>
 				</div>
 			</section>
