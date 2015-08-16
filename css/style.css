@@ -436,12 +436,17 @@ body {
 	margin: 0;
 	width: 600px;
 }
+.post {
+	max-width: 769px;
+}
 .post .author-img {
+	float: left;
 	width: 40px;
 	margin-right: 10px;
 }
 .post .author {
 	line-height: 40px;
+	font-size: 20px;
 }
 .post h1 {
 	font-size: 60px;

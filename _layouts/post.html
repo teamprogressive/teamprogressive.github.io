@@ -4,7 +4,7 @@ layout: default
 
 <article class="post">
 	<img src="{{ site.baseurl }}/img/author/{{ page.author }}.png" class="author-img" alt="작성자 : {{ page.author }}" />
-	<span class="author">{{ page.author }}</span>
+	<p class="author">{{ page.author }}</p>
 	<h1>{{ page.title }}</h1>
 	<div class="date">
 		{{ page.date | date: "%B %e, %Y" }}
@@ -12,6 +12,5 @@ layout: default
 	<div class="entry">
 		{{ content }}
 	</div>
-
-	{% include disqus.html disqus_identifier=page.disqus_identifier %}
 </article>
+{% include disqus.html disqus_identifier=page.disqus_identifier %}
