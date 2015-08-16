@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 아키하바라상의 어떤 노심융해: 덴파구미.inc
+title: 아키하바라상의 어떤 노심융해 - 덴파구미.inc
 category: RMHN
 author: tpro
 summary: 덴파구미.inc와 아이돌 카페 디어스테이지
