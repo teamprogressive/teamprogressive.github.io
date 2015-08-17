@@ -640,11 +640,15 @@ body {
 
 	/* global navigation */
 	.global-nav {
-		padding: 0;
+		padding: 1em 0 0 0;
 		display: none;
+		left: -90px;
+		transition: width 0.3s cubic-bezier(.8,0,.22,1);
+		-webkit-transition: width 0.3s cubic-bezier(.8,0,.22,1);
 	}
 	.global-nav.open {
 		display: block;
+		left: 30px;
 	}
 	.global-nav li {
 		float: none;
@@ -675,5 +679,8 @@ body {
 	}
 	.block .thumbnail .overlay {
 		display: none;
+	}
+	.block img {
+		max-width: 100%;
 	}
 }
