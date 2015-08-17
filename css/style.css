@@ -639,7 +639,7 @@ body {
 		padding: 0;
 		display: none;
 	}
-	.global-nav .open {
+	.global-nav.open {
 		display: block;
 	}
 	.global-nav li {
@@ -652,6 +652,9 @@ body {
 
 	/* blog */
 	.blog-list {
-		margin: 0 -10px;
+		margin: 0 -20px;
+	}
+	.blog-list section {
+		padding: 45px -20px;
 	}
 }
