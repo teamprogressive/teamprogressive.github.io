@@ -567,6 +567,9 @@ body {
 		.logo a {
 			padding: 33px;
 		}
+	.wrap {
+		padding-top: 230px;
+	}
 	/* mobile navigation icon */
 	#m-nav-icon {
 		display: inline-block;
@@ -574,6 +577,7 @@ body {
 		height: 20px;
 		position: fixed;
 		top: 36px;
+		z-index: 6666;
 		-webkit-transform: rotate(0deg);
 		-moz-transform: rotate(0deg);
 		-o-transform: rotate(0deg);
@@ -655,6 +659,21 @@ body {
 		margin: 0 -20px;
 	}
 	.blog-list section {
-		padding: 45px -20px;
+		padding: 45px 20px;
+	}
+
+	/* works */
+	.category-list {
+		top: 75px;
+	}
+	.block {
+		margin-right: 0;
+		min-width: 100%
+	}
+	.block .thumbnail {
+		min-height: 100%;
+	}
+	.block .thumbnail .overlay {
+		display: none;
 	}
 }
