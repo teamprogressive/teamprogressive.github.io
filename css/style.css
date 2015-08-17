@@ -694,7 +694,10 @@ body {
 	.blog-list section {
 		padding: 45px 20px;
 	}
-
+	.post h1 {
+		font-size: 2em;
+	}
+	
 	/* works */
 	.category-list {
 		top: 75px;
@@ -717,6 +720,7 @@ body {
 	}
 	.works-info-title h1 {
 		width: 100%;
+		font-size: 2em;
 	}
 	.works-info {
 		margin-top: 18px;
@@ -732,5 +736,10 @@ body {
 	}
 	.works-info-body-top dl {
 		margin-bottom: 40px;
+	}
+
+	/* about */
+	.about-heading h1 {
+		font-size: 2em;
 	}
 }
