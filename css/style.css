@@ -640,4 +640,7 @@ body {
 		float: none;
 		margin-bottom: 0.7em;
 	}
+	.global-nav li:before {
+		content: none;
+	}
 }
