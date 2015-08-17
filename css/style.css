@@ -641,13 +641,11 @@ body {
 	/* global navigation */
 	.global-nav {
 		padding: 1em 0 0 0;
-		display: none;
 		left: -90px;
 		transition: left 0.3s cubic-bezier(.8,0,.22,1);
 		-webkit-transition: left 0.3s cubic-bezier(.8,0,.22,1);
 	}
 	.global-nav.open {
-		display: block;
 		left: 30px;
 	}
 	.global-nav li {

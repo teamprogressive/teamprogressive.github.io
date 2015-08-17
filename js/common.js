@@ -2,7 +2,6 @@
 $(document).ready(function(){
 	$('#m-nav-icon').click(function(){
 		$(this).toggleClass('open');
-
-		$(".global-nav").slideToggle( 300 );
+		$(".global-nav").toggleClass('open');
 	});
 });
