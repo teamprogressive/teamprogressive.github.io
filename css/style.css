@@ -561,10 +561,12 @@ body {
 		border-right: 10px solid #11acd1;
 	}
 	.logo {
-		padding: 23px;
 		top: 26px;
 		right: 20px;
 	}
+		.logo a {
+			padding: 23px;
+		}
 	/* mobile navigation icon */
 	#m-nav-icon {
 		display: inline-block;
@@ -635,7 +637,7 @@ body {
 	/* global navigation */
 	.global-nav {
 		padding: 0;
-		float: initial;
+		float: none;
 		margin-bottom: 0.7em;
 	}
 }
