@@ -1,23 +1,55 @@
 @font-face {
     font-family: 'Noto Sans Korean';
     font-style: normal;
+    font-weight: 100;
+    src: local('😀'),
+    url(https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/fonts/woff/NotoSansKR-Thin-Hestia.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Noto Sans Korean';
+    font-style: normal;
+    font-weight: 300;
+    src: local('😀'),
+    url(https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/fonts/woff/NotoSansKR-Light-Hestia.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Noto Sans Korean';
+    font-style: normal;
+    font-weight: 350;
+    src: local('😀'),
+    url(https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/fonts/woff/NotoSansKR-DemiLight-Hestia.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Noto Sans Korean';
+    font-style: normal;
     font-weight: 400;
-    src: url('../fonts/NotoSansKR-Regular.woff2') format('woff2'),
-    url('../fonts/NotoSansKR-Regular.woff') format('woff');
+    src: local('😀'),
+    url(https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/fonts/woff/NotoSansKR-Regular-Hestia.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Noto Sans Korean';
+    font-style: normal;
+    font-weight: 500;
+    src: local('😀'),
+    url(https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/fonts/woff/NotoSansKR-Medium-Hestia.woff) format('woff');
 }
 
 @font-face {
     font-family: 'Noto Sans Korean';
     font-style: normal;
     font-weight: 700;
-    src: url('../fonts/NotoSansKR-Bold.woff2') format('woff2'),
-    url('../fonts/NotoSansKR-Bold.woff') format('woff');
+    src: local('😀'),
+    url(https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/fonts/woff/NotoSansKR-Bold-Hestia.woff) format('woff');
 }
 
 @font-face {
     font-family: 'Noto Sans Korean';
     font-style: normal;
     font-weight: 900;
-    src: url('../fonts/NotoSansKR-Black.woff2') format('woff2'),
-    url('../fonts/NotoSansKR-Black.woff') format('woff');
+    src: local('😀'),
+    url(https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/fonts/woff/NotoSansKR-Black-Hestia.woff) format('woff');
 }
