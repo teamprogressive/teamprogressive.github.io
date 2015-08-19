@@ -66,22 +66,32 @@ body {
 	border-right: 30px solid #11acd1;
 }
 /* responsive video container */
-.video-container {
+.embed-responsive {
 	position: relative;
-	padding-bottom: 56.25%;
-	padding-top: 30px; height: 0; overflow: hidden;
+	display: block;
+	height: 0;
+	padding: 0;
+	overflow: hidden;
 }
- 
-.video-container iframe,
-.video-container object,
-.video-container embed {
+.embed-responsive .embed-responsive-item,
+.embed-responsive iframe,
+.embed-responsive embed,
+.embed-responsive object,
+.embed-responsive video {
 	position: absolute;
 	top: 0;
+	bottom: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
+	border: 0;
 }
-
+.embed-responsive.embed-responsive-16by9 {
+	padding-bottom: 56.25%;
+}
+.embed-responsive.embed-responsive-4by3 {
+	padding-bottom: 75%;
+}
 /* column setting */
 /* column 중복 사용 */
 .row {
@@ -490,37 +500,33 @@ body {
 	border-top: 2px solid #c9c9c9;
 }
 
-.embed-responsive {
-	position: relative;
-	display: block;
-	height: 0;
-	padding: 0;
-	overflow: hidden;
-}
-.embed-responsive .embed-responsive-item,
-.embed-responsive iframe,
-.embed-responsive embed,
-.embed-responsive object,
-.embed-responsive video {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	border: 0;
-}
-.embed-responsive.embed-responsive-16by9 {
-	padding-bottom: 56.25%;
-}
-.embed-responsive.embed-responsive-4by3 {
-	padding-bottom: 75%;
-}
+
 
 .copyright {
 	padding-top: 240px;
 }
 @media (max-width: 1279px) {
+	.col-md-half, .col-md-2-1, .col-md-4-2, .col-md-6-3, .col-md-10-5, .col-md-12-6 { width: 50%; }
+	.col-md-3-1, .col-md-6-2, .col-md-12-4 { width: 33.3333333333%; }
+	.col-md-3-2, .col-md-6-4, .col-md-12-8 { width: 66.6666666666%; }
+	.col-md-4-1, .col-md-12-3 { width: 25%; }
+	.col-md-4-3, .col-md-12-9 { width: 75%; }
+	.col-md-5-1, .col-md-10-2 { width: 20%; }
+	.col-md-5-2, .col-md-10-4 { width: 40%; }
+	.col-md-5-3, .col-md-10-6 { width: 60%; }
+	.col-md-5-4, .col-md-10-8 { width: 80%; }
+	.col-md-6-1, .col-md-12-2 { width: 16.6666666666%; }
+	.col-md-6-5, .col-md-12-10 { width: 83.3333333333% }
+	.col-md-10-1 { width: 10%; }
+	.col-md-10-3 { width: 30%; }
+	.col-md-10-7 { width: 70%; }
+	.col-md-10-9 { width: 90%; }
+	.col-md-12-1 { width: 8.3333333333%; }
+	.col-md-12-5 { width: 41.6666666666%; }
+	.col-md-12-7 { width: 58.3333333333%; }
+	.col-md-12-11 { width: 91.6666666666%; }
+	.col-md-full { width: 100%; }
+	
 	.post figcaption {
 		position: relative;
 		width: 100%;
@@ -697,7 +703,7 @@ body {
 	.post h1 {
 		font-size: 2em;
 	}
-	
+
 	/* works */
 	.category-list {
 		top: 75px;
