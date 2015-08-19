@@ -527,6 +527,10 @@ body {
 	.col-md-12-11 { width: 91.6666666666%; }
 	.col-md-full { width: 100%; }
 	
+
+	.works-info-title h1, .works-info-title p, .works-info-title iframe {
+		width: 100%;
+	}
 	.post figcaption {
 		position: relative;
 		width: 100%;
