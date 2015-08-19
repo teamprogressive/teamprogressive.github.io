@@ -9,7 +9,7 @@
 @font-face {
     font-family: 'Noto Sans Korean';
     font-style: normal;
-    font-weight: 300;
+    font-weight: 200;
     src: local('😀'),
     url(https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/fonts/woff/NotoSansKR-Light-Hestia.woff) format('woff');
 }
@@ -17,7 +17,7 @@
 @font-face {
     font-family: 'Noto Sans Korean';
     font-style: normal;
-    font-weight: 350;
+    font-weight: 300;
     src: local('😀'),
     url(https://cdn.rawgit.com/theeluwin/NotoSansKR-Hestia/master/fonts/woff/NotoSansKR-DemiLight-Hestia.woff) format('woff');
 }
