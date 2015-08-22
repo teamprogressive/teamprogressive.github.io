@@ -3,7 +3,7 @@ layout: default
 ---
 
     <div class="col-3-1 col-md-2-1 works-art"><img src="{{ page.image }}" alt="{{ page.caption }}">
-		{% if page.youtube != 0 %}
+		{% if page.youtube != "none" %}
 		<div class="embed-responsive embed-responsive-16by9"><iframe src="//www.youtube.com/embed/{{ page.youtube }}?rel=0" height="315" width="560" allowfullscreen="" frameborder="0"></iframe></div>
 		{% else %}
 		{% endif %}
