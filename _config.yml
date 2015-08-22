@@ -49,7 +49,7 @@ baseurl: "http://tpro.me"
 collections:
   works:
     output: true
-    permalink: /works/:categories/:title/
+    permalink: /works/:name/
 
 #
 # !! You don't need to change any of the configuration flags below !!
