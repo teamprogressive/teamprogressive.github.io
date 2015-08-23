@@ -1,22 +1,15 @@
 ---
 layout: default
 ---
-		<h2>Latest Works</h2>
-		<div id="mixitup-container">
-			{% for post in site.works reversed limit:3 %}
-			<div class="mix block {% for tags in post.tags %}{{ tags }} {% endfor %}">
-				<a href="{{ post.url }}" class="thumbnail-wrap">
-					<div class="thumbnail">
-						<span class="overlay"><i>View Detail</i></span>
-						<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ post.image }}" alt="{{ post.caption }}" class="img-unveil">
-					</div>
-					<h2>{{ post.title }}</h2>
-				</a>
-				<ul class="category">
-					{% for tags in post.tags %}
-					<li><button class="filter" data-filter=".{{ tags }}">{{ tags }}</button></li>
-					{% endfor %}
-				</ul>
-			</div>
-			{% endfor %}
-		</div> 
+<article class="post">
+	<img src="{{ site.baseurl }}/img/author/{{ page.author }}.png" class="author-img" alt="작성자 : {{ page.author }}" />
+	<p class="author">{{ page.author }}</p>
+	<h1>{{ page.title }}</h1>
+	<div class="date">
+		{{ page.date | date: "%B %e, %Y" }}
+	</div>
+	<div class="entry">
+		{{ content }}
+	</div>
+</article>
+{% include disqus.html disqus_identifier=page.disqus_identifier %}
