@@ -17,7 +17,7 @@ layout: default
 	</div>
 	<h2>Latest Works</h2>
 	{% assign work_items = site.work_items | sort: 'date' | reverse %}
-	{% for work_item in work_items reversed %}
+	{% for work_item in work_items limit:3 %}
 	<div class="block">
 		<a href="{{ work_item.url }}" class="thumbnail-wrap">
 			<div class="thumbnail">
