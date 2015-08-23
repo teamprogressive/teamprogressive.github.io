@@ -2,7 +2,7 @@
 layout: default
 ---
 		<div id="mixitup-container">
-			{% for post in site.works limit:3 reversed %}
+			{% for post in site.works limit:3 %}
 			<div class="mix block {% for tags in post.tags %}{{ tags }} {% endfor %}">
 				<a href="{{ post.url }}" class="thumbnail-wrap">
 					<div class="thumbnail">
