@@ -16,20 +16,22 @@ layout: default
 	{% endfor %}
 	</div>
 	<h2>Latest Works</h2>
-	{% assign work_items = site.works | sort: 'date' | reverse %}
-	{% for work_item in work_items limit:3 %}
-	<div class="block">
-		<a href="{{ work_item.url | prepend: site.baseurl }}" class="thumbnail-wrap">
-			<div class="thumbnail">
-				<span class="overlay"><i>View Detail</i></span>
-				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ work_item.image }}" alt="{{ work_item.caption }}" class="img-unveil">
-			</div>
-			<h2>{{ work_item.title }}</h2>
-		</a>
-		<ul class="category">
-			{% for tags in work_item.tags %}
-			<li><button>{{ tags }}</button></li>
-			{% endfor %}
-		</ul>
+	<div id="mixitup-container">
+		{% assign work_items = site.works | sort: 'date' | reverse %}
+		{% for work_item in work_items limit:3 %}
+		<div class="block">
+			<a href="{{ work_item.url | prepend: site.baseurl }}" class="thumbnail-wrap">
+				<div class="thumbnail">
+					<span class="overlay"><i>View Detail</i></span>
+					<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ work_item.image }}" alt="{{ work_item.caption }}" class="img-unveil">
+				</div>
+				<h2>{{ work_item.title }}</h2>
+			</a>
+			<ul class="category">
+				{% for tags in work_item.tags %}
+				<li><button>{{ tags }}</button></li>
+				{% endfor %}
+			</ul>
+		</div>
+		{% endfor %}
 	</div>
-	{% endfor %}
