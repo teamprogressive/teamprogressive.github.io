@@ -1,15 +1,35 @@
 ---
 layout: default
 ---
-<article class="post">
-	<img src="{{ site.baseurl }}/img/author/{{ page.author }}.png" class="author-img" alt="작성자 : {{ page.author }}" />
-	<p class="author">{{ page.author }}</p>
-	<h1>{{ page.title }}</h1>
-	<div class="date">
-		{{ page.date | date: "%B %e, %Y" }}
+	<div class="blog-list">
+	{% for post in site.posts limit:1 %}
+		<a href="{{ post.url }}">
+			<section class="clearfix">
+				<img src="{{ site.baseurl }}/img/author/{{ post.author }}.png" class="author-img" alt="작성자 : {{ post.author }}" />
+				<div class="blog-list-info">
+					<h2>{{ post.title }}</h2>
+					<span class="date">{{ post.date | date: "%B %e, %Y" }}</span>
+					<summary>{{ post.summary }}</summary>
+				</div>
+			</section>
+		</a>
+	{% endfor %}
 	</div>
-	<div class="entry">
-		{{ content }}
+	<h2>Latest Works</h2>
+	{% assign work_items = site.work_items | sort: 'date' | reverse %}
+	{% for work_item in work_items reversed %}
+	<div class="block">
+		<a href="{{ work_item.url }}" class="thumbnail-wrap">
+			<div class="thumbnail">
+				<span class="overlay"><i>View Detail</i></span>
+				<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ work_item.image }}" alt="{{ work_item.caption }}" class="img-unveil">
+			</div>
+			<h2>{{ work_item.title }}</h2>
+		</a>
+		<ul class="category">
+			{% for tags in work_item.tags %}
+			<li><button>{{ tags }}</button></li>
+			{% endfor %}
+		</ul>
 	</div>
-</article>
-{% include disqus.html disqus_identifier=page.disqus_identifier %}
+	{% endfor %}
