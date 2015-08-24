@@ -18,7 +18,7 @@ layout: default
 	<h2>Latest Works</h2>
 	<div id="mixitup-container">
 		{% assign work_items = site.works | sort: 'date' | reverse %}
-		{% for work_item in work_items limit:3 %}
+		{% for work_item in work_items limit:6 %}
 		<div class="mix block">
 			<a href="{{ work_item.url | prepend: site.baseurl }}" class="thumbnail-wrap">
 				<div class="thumbnail">
