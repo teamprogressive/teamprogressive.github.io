@@ -18,10 +18,10 @@
   <!-- website stylesheet -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link href="{{ site.baseurl }}/css/style.css" rel="stylesheet" type="text/css">
-
-  <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+  <link rel="stylesheet" href="outdatedBrowser.min.css">
 </head>
 <body>
+<div id="outdated"></div>
 <div class="body-wrap">
   <h1 class="logo"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
   <div id="m-nav-icon">
@@ -50,5 +50,7 @@
 <script src="{{ site.baseurl }}/js/init.unveil.js"></script>
 <script src="{{ site.baseurl }}/js/init.mixitup.js"></script>
 {% include analytics.html %}
+<script src="{{ site.baseurl }}/js/outdatedBrowser.min.js"></script>
+<script src="{{ site.baseurl }}/js/init.outdated.js"></script>
 </body>
 </html>
