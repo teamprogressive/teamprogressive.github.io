@@ -18,6 +18,6 @@ addLoadEvent(function(){
         bgColor: '#ed8123',
         color: '#ffffff',
         lowerThan: 'transform',
-        languagePath: '/_includes/outdate-kr.html'
+        languagePath: '/outdate-kr.html'
     })
 });
