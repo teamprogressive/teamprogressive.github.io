@@ -483,6 +483,9 @@ body {
 .post .entry {
 	margin: 72px 0;
 }
+.post .entry p {
+	text-indent: 0.5em;
+}
 .post a {
 	color: #11acd1;
 }
