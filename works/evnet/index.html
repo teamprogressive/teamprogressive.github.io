@@ -1,0 +1,34 @@
+---
+layout: default
+title: event
+---
+		<div class="nav-2depth">
+			<ul class="category-list">
+				<li class="nav-1depth-ind"><span class="nav-line"></span><a href="#">Discography</a></li>
+				<li class="nav-1depth-ind active"><span class="nav-line"></span><a href="#">Event</a>
+					<ul class="category-list-2dep">
+						<li class="nav-2depth-ind filter" data-filter=".Host"><span class="nav-line"></span>Host</li>
+						<li class="nav-2depth-ind filter" data-filter=".Guest"><span class="nav-line"></span>Guest</li>
+					</ul>
+				</li>
+				<li class="nav-1depth-ind"><span class="nav-line"></span><a href="#">Legacy</a></li>
+			</ul>
+		</div>
+		<div id="mixitup-container">
+			{% for post in site.event reversed %}
+			<div class="mix block {% for tags in post.tags %}{{ tags }} {% endfor %}">
+				<a href="{{ post.url }}" class="thumbnail-wrap">
+					<div class="thumbnail">
+						<span class="overlay"><i>View Detail</i></span>
+						<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ post.image }}" alt="{{ post.caption }}" class="img-unveil">
+					</div>
+					<h2>{{ post.title }}</h2>
+				</a>
+				<ul class="category">
+					{% for tags in post.tags %}
+					<li><button class="filter" data-filter=".{{ tags }}">{{ tags }}</button></li>
+					{% endfor %}
+				</ul>
+			</div>
+			{% endfor %}
+		</div> 

@@ -50,6 +50,9 @@ collections:
   works:
     output: true
     permalink: /works/:name/
+  event:
+    output: true
+    permalink: /works/event/:name/
 
 #
 # !! You don't need to change any of the configuration flags below !!
