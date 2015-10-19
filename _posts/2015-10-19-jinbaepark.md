@@ -67,7 +67,7 @@ R:시모카와 사장님이 정말 죄가 많네요. 위겐도 하필 투하트�
 <figcaption>AKKO  -  Brand New Heart (from To Heart)</figcaption>
 </figure>
 
-전설의 시작의 시작.
+> 전설의 시작의 시작.
 
 E: 그리고 제가 지금은 퇴물입니다만, 당시엔 좀 미디파일을 잘 만들었는데요.
 
