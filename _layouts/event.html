@@ -1,0 +1,17 @@
+---
+layout: default
+---
+    <div class="col-3-1 col-md-2-1 works-art"><img src="{{ page.image }}" alt="{{ page.caption }}">			
+	</div>
+    <div class="col-3-2 col-md-2-1 works-info">
+	    <div class="works-info-title">
+	    	<h1>{{ page.title }}</h1>
+	    	<p>{{ page.description }}</p>
+	    </div>
+	</div>
+	<div class="col-3-2 col-md-full">
+		<div class="row">
+			{{ content }}
+		</div>
+	</div>
+	{% include disqus.html disqus_identifier=page.disqus_identifier %}
