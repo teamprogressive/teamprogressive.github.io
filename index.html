@@ -1,37 +1,14 @@
 ---
 layout: default
 ---
-	<div class="blog-list">
-	{% for post in site.posts limit:1 %}
-		<a href="{{ post.url }}">
-			<section class="clearfix">
-				<img src="{{ site.baseurl }}/img/author/{{ post.author }}.png" class="author-img" alt="작성자 : {{ post.author }}" />
-				<div class="blog-list-info">
-					<h2>{{ post.title }}</h2>
-					<span class="date">{{ post.date | date: "%B %e, %Y" }}</span>
-					<summary>{{ post.summary }}</summary>
-				</div>
-			</section>
-		</a>
-	{% endfor %}
-	</div>
-	<h2>Latest Works</h2>
-	<div id="mixitup-container">
-		{% assign work_items = site.works | sort: 'date' | reverse %}
-		{% for work_item in work_items limit:6 %}
-		<div class="mix block">
-			<a href="{{ work_item.url | prepend: site.baseurl }}" class="thumbnail-wrap">
-				<div class="thumbnail">
-					<span class="overlay"><i>View Detail</i></span>
-					<img src="{{ site.baseurl }}/img/loading.gif" data-src="{{ work_item.image }}" alt="{{ work_item.caption }}" class="img-unveil">
-				</div>
-				<h2>{{ work_item.title }}</h2>
-			</a>
-			<ul class="category">
-				{% for tags in work_item.tags %}
-				<li><button>{{ tags }}</button></li>
-				{% endfor %}
-			</ul>
-		</div>
-		{% endfor %}
-	</div>
+<div class="about-heading">
+	<h1>
+	Internet-Based Media Contents Guild<br/>
+	<span class="pri-color">Team Progressive</span><br/>
+	Since 2003
+	</h1>
+</div>
+<div class="about-contents">
+	<p>Team Progressive(약칭 TPRO)는 2003년에 동인/아마추어 컨텐츠 제작 팀으로 시작한 컨텐츠 제작자들을 위한 길드입니다.<br/>인터넷을 기반으로 활동하는 음악, 게임, 공연/전시 등의 컨텐츠 제작자를 지원하고 함께 합니다.</p>
+	<p>Contact : contact@tpro.me</p>
+</div>

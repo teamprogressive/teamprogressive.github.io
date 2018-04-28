@@ -25,20 +25,6 @@
 <div id="outdated"></div>
 <div class="body-wrap">
   <h1 class="logo"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-  <div id="m-nav-icon">
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
-  <nav class="global-nav">
-    <ul>
-      {% assign url = page.url|remove:'index.html' %}
-      {% for link in site.navigation %}
-      <li><a href="{{ link.url }}" class="global-nav-ind{% if url == link.url %} active{% endif %}"><span class="nav-line"></span>{{ link.text }}</a></li>
-      {% endfor %}
-    </ul>
-  </nav>
   <div class="wrap">
     {{ content }}
     <div class="copyright">&copy; 2015 Team Progressive</div>
